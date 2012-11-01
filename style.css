@@ -1,0 +1,283 @@
+/****************************************************************************************************************
+
+THEME NAME: Startbox Child
+THEME URI: http://www.example.com
+DESCRIPTION: A custom theme by <a href="http://www.example.com">Your Name</a> for <a href="http://wpstartbox.com">Startbox</a>.
+TAGS: one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-width, white, light, custom-menu, editor-style, featured-images, full-width-template, microformats, sticky-post, theme-options, threaded-comments, translation-ready
+VERSION: 1.0
+AUTHOR: Your Name
+AUTHOR URI: http://www.wpstartbox.com
+LICENSE: GNU General Public License
+LICENSE URI: license.txt
+TEMPLATE: startbox
+
+****************************************************************************************************************
+
+Default styles from startbox are imported via wp_enque_style() in functions.php 
+
+****************************************************************************************************************
+
+Table of Contents
+
+****************************************************************************************************************
+
+0.	General Styling
+1. 	Layout
+2.	Menu
+3.	Widget Areas
+4.	Articles
+5.	Comments
+6.	Footer
+
+****************************************************************************************************************
+
+0. General Styling
+
+****************************************************************************************************************/
+
+body {}
+a, a:visited {}
+a:hover, a:active, a:focus {}
+h1,h2,h3,h4,h5,h6 {}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+hr {}
+img, p img {}
+blockquote {}
+blockquote p {}
+pre,code {}
+strong {}
+em {}
+del {}
+ins {}
+abbr,cite {}
+.more-link, .more-link:visited {}
+.more-link:hover, .more-link:active {}
+.post-content dl,
+.post-content ul,
+.post-content ol {}
+.post-content dl dl,
+.post-content ul ul,
+.post-content ol ol {}
+.post-content ul {}
+.post-content ol {}
+.post-centent li {}
+
+/****************************************************************************************************************
+
+1. Layout
+
+****************************************************************************************************************/
+
+.skip-to-content {}
+.rtt {} /* Return to Top link */
+#wrap, #footer_wrap {}
+#footer_wrap {}
+#header h1 {}
+#logo {}
+#blog-title, #blog-description {}
+#container {}
+#nav-above {}
+#nav-above, #nav-below {}
+.nav-previous {}
+.nav-next {}
+.page-template-pagefullwidth-php div#container,
+.page-template-pagefullwidth-php div#content {}
+
+/****************************************************************************************************************
+
+2. Menu
+
+****************************************************************************************************************/
+
+/* Menu */
+.nav {}
+.nav ul {}
+.nav li {}
+
+/* Default Links */
+.nav li a, .nav li a:visited {}
+.nav li:hover a, .nav li:hover a:visited,
+.nav li a:hover, .nav li a:active, .nav li a:focus,
+.nav li.current-menu-item a, .nav li.current-menu-item a:visited,
+.nav li.current-menu-ancestor a, .nav li.current-menu-ancestor a:visited {}
+
+/* Active Links */
+.nav li.current-menu-item a, .nav li.current-menu-item a:visited,
+.nav li.current-menu-ancestor a, .nav li.current-menu-ancestor a:visited {}
+
+/* Sub-menu */
+.nav li ul,
+.nav li:hover li ul {}
+.nav li:hover ul,
+.nav li li:hover ul {}
+.nav li:hover li ul {}
+
+/* Sub-menu Links */
+.nav li li {}
+.nav li li a, .nav li li a:visited,
+.nav li:hover li a, .nav li:hover li a:visited {}
+
+/* Sub-menu Active Links */
+.nav li:hover li a:hover, .nav li:hover li a:active,
+.nav li li.current-menu-item a, .nav li li.current-menu-item a:visited,
+.nav li li.current-menu-ancestor a, .nav li li.current-menu-ancestor a:visited {}
+
+/* Top Nav Menu Styles */
+.nav-sb_before {}
+.nav-sb_before ul {}
+.nav-sb_before li {}
+
+/* Top Nav Links */
+.nav-sb_before li a, .nav-sb_before li a:visited {}
+
+/* Top Nav Active Links */
+.nav-sb_before li:hover a, .nav-sb_before li:hover a:visited,
+.nav-sb_before li a:hover, .nav-sb_before li a:active, .nav-sb_before li a:focus,
+.nav-sb_before li.current-menu-item a, .nav-sb_before li.current-menu-item a:visited,
+.nav-sb_before li.current-menu-ancestor a, .nav-sb_before li.current-menu-ancestor a:visited {}
+.nav-sb_before li.current-menu-item a, .nav-sb_before li.current-menu-item a:visited,
+.nav-sb_before li.current-menu-ancestor a, .nav-sb_before li.current-menu-ancestor a:visited {}
+
+/* Top Nav Sub-menu */
+.nav-sb_before li ul {}
+.nav-sb_before li:hover li ul {}
+
+/* Top Nav Sub-menu Links */
+.nav-sb_before li li a, .nav-sb_before li li a:visited,
+.nav-sb_before li:hover li a, .nav-sb_before li:hover li a:visited {}
+
+/* Top Nav Sub-menu Active Links */
+.nav-sb_before li:hover li a:hover, .nav-sb_before li:hover li a:active,
+.nav-sb_before li li.current-menu-item a, .nav-sb_before li li.current-menu-item a:visited,
+.nav-sb_before li li.current-menu-ancestor a, .nav-sb_before li li.current-menu-ancestor a:visited {}
+
+/* Footer Nav Menu Styles */
+.nav-footer {}
+.nav-footer ul {}
+
+/* Footer Nav Links */
+.nav-footer li a, .nav-footer li a:visited {}
+
+/* Footer Nav Active Links */
+.nav-footer li:hover a, .nav-footer li:hover a:visited,
+.nav-footer li a:hover, .nav-footer li a:active, .nav-footer li a:focus,
+.nav-footer li.current-menu-item a, .nav-footer li.current-menu-item a:visited,
+.nav-footer li.current-menu-ancestor a, .nav-footer li.current-menu-ancestor a:visited {}
+
+/* Footer Nav Sub-menu */
+.nav-footer li ul {}
+.nav-footer li:hover li ul {}
+
+/* Footer Nav Sub-menu Links */
+.nav-footer li li a, .nav-footer li li a:visited,
+.nav-footer li:hover li a, .nav-footer li:hover li a:visited {}
+
+/* Footer Nav Sub-menu Active Links */
+.nav-footer li:hover li a:hover, .nav-footer li:hover li a:active,
+.nav-footer li li.current-menu-item a, .nav-footer li li.current-menu-item a:visited,
+.nav-footer li li.current-menu-ancestor a, .nav-footer li li.current-menu-ancestor a:visited {}
+
+/* Nav Extras */
+.nav li.search {}
+.nav li.menu-item-type-search .searchtext {}
+.nav li.menu-item-type-search .button {}
+li.menu-item-type-social {}
+li.menu-item-type-social a, li.menu-item-type-social a:visited {}
+li.menu-item-type-social a span {}
+
+/****************************************************************************************************************
+
+3. Widget Areas
+
+****************************************************************************************************************/
+
+.widget-title {}
+.widget {}
+.widget ul {}
+.widget li a, .widget li a:visited {}
+.widget li a:hover, .widget li a:active {}
+
+/****************************************************************************************************************
+
+4. Articles
+
+****************************************************************************************************************/
+
+.post {}
+.single .post {}
+.page-title {}
+.entry-title {}
+.entry-title a, .entry-title a:visited {}
+.entry-meta {}
+.entry-photo {}
+.entry-content {}
+.tag-links {}
+.comments-link, .comments-link:visited {}
+#entry-author-info {}
+.single #entry-author-info {}
+#entry-author-info h2 {}
+.single #entry-author-info h2 {}
+#author-avatar {}
+.single #author-avatar {}
+
+/****************************************************************************************************************
+
+5. Comments
+
+****************************************************************************************************************/
+
+#comments h4 {}
+.h3-link, .h3-link:visited {}
+#comments-list {}
+.commentlist,
+.commentlist .children {}
+.comments {}
+.commentlist li {}
+.comment-wrap {}
+.comment-meta {}
+.avatar {}
+.commentlist .fn, #commentform .fn {}
+.comment-author-name, .comment-author-name:visited {}
+.comment-author-name:hover, .comment-author-name:active {}
+.comment-date {}
+.commentlist li .comment-entry {}
+.commentlist li .comment-entry p {}
+.comment-arrow {}
+.reply-author {}
+.comment-entry blockquote {}
+.comment-entry blockquote blockquote {}
+.comment-entry blockquote p {}
+.comment-reply-link,
+.comment-edit-link {}
+#trackbacks-list {}
+#trackbacks-list ol {}
+.commentlist .children {}
+.commentlist .children li {}
+.children .comment-arrow {}
+.children .entry-content {}
+.children .comment-meta {}
+.children .comment-meta .avatar {}
+.children .comment-meta .fn {}
+.children .entry-content {}
+.comment-footer {}
+
+/****************************************************************************************************************
+
+6. Footer
+
+****************************************************************************************************************/
+
+div#footer, #wp_footer {}
+#footer_sidebar .aside {}
+#sb_credit {}
+#site_info {}
+.copyright,
+.footer_text {}
+#login_content {}
+#login_links {}
+#login_links li {}

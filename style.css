@@ -1,6 +1,6 @@
 /****************************************************************************************************************
 
-THEME NAME: Startbox Child
+THEME NAME: StartBox Child
 THEME URI: http://www.example.com
 DESCRIPTION: A custom theme by <a href="http://www.example.com">Your Name</a> for <a href="http://wpstartbox.com">Startbox</a>.
 TAGS: one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-width, white, light, custom-menu, editor-style, featured-images, full-width-template, microformats, sticky-post, theme-options, threaded-comments, translation-ready
@@ -13,7 +13,7 @@ TEMPLATE: startbox
 
 ****************************************************************************************************************
 
-Default styles from startbox are imported via wp_enque_style() in functions.php 
+Default styles from StartBox are imported via wp_enque_style() in functions.php 
 
 ****************************************************************************************************************
 

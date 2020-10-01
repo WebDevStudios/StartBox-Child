@@ -8,8 +8,8 @@ VERSION: 1.0
 AUTHOR: Your Name
 AUTHOR URI: http://www.wpstartbox.com
 LICENSE: GNU General Public License
-LICENSE URI: license.txt
-TEMPLATE: startbox
+LICENSE URl: license.txt
+TEMPLATE: StartBox
 
 ****************************************************************************************************************
 
@@ -65,7 +65,7 @@ abbr,cite {}
 .post-content ol ol {}
 .post-content ul {}
 .post-content ol {}
-.post-centent li {}
+.post-content li {}
 
 /****************************************************************************************************************
 
